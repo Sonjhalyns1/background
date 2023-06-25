@@ -1,27 +1,80 @@
 body {
-	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: 0.5em;
     top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
-}
-
-h1 {
+    background: linear-gradient(to right, rgb(255, 69, 69), rgb(94, 32, 32));
+    
+    
+    /* Standard syntax */
+  }
+  
+  h1 {
     font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: #a1b4c4;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: 0.5em;
     width: 100%;
-}
-
-h3 {
-	font: 900 1em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+  }
+  
+  h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: #a1b4c4;
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
-
-}
+  }
+  
+  .border-2 {
+    border-width: 2px;
+  }
+  
+  .px-8 {
+    padding-left: 2rem /* 32px */;
+    padding-right: 2rem /* 32px */;
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem /* 12px */;
+    padding-bottom: 0.75rem /* 12px */;
+  }
+  
+  .my-2 {
+    margin-top: 0.5rem /* 8px */;
+    margin-bottom: 0.5rem /* 8px */;
+  }
+  
+  .hover\:bg-\[\#27374D\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 55 77 / var(--tw-bg-opacity));
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem /* 8px */;
+  }
+  
+  button {
+    color: #a1b4c4;
+    background: #27374d;
+  }
+  
+  h4 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: #a1b4c4;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fix-it{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
