@@ -60,7 +60,9 @@ body {
     color: #a1b4c4;
     background: #27374d;
   }
-  
+  a {
+    color: #a1b4c4;
+  }
   h4 {
     font: 900 1em 'Raleway', sans-serif;
     color: #a1b4c4;
